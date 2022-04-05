@@ -1,4 +1,4 @@
-# JavaScrip--Turn-Strings-into-Title-Case
+# JavaScript--Turn-Strings-into-Title-Case
 
 const convertTitleCase = function (title) {
   const capitalize = (str) => str[0].toUpperCase() + str.slice(1);
