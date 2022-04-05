@@ -2,7 +2,7 @@
 
 const convertTitleCase = function (title) {
   const capitalize = (str) => str[0].toUpperCase() + str.slice(1);
-  const exceptions = [  "a", "an","am", "are", "is","and", "the","but", "or", "on", "in",
+  const exceptions = [  "a", "an", "is","and", "the","but", "or", "on", "in",
     "with" ];
   const titleCase = title
     .toLowerCase()
